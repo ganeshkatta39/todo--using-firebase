@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c2d48;
+  user-select: text;
+}
+.section {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  padding: 20px 5px;
+  display: flex;
+  justify-content: center;
+  gap: 2px 15px;
+}
+
+#add-button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+#input-field {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.task-container {
+  background-color: white;
+  padding: 10px 0px;
+  text-align: left;
+  margin: 5vh 15vw;
+  border-radius: 5px;
+}
+
+ul {
+  padding: 5px;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: large;
+  background-color: antiquewhite;
+  margin: 4px;
+}
